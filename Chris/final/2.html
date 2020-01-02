@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> WeedMD</title>
+<link rel="stylesheet" href="weedmdstyle.css">
+</head>
+<body>
+
+<div class="bg">
+    <div class="nav">
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="research"><a href="info.html">Research</a></li>
+            <li class="about"><a href="about.html">About</a></li>
+            <li class="news"><a href="news.html">Newsletter</a></li>
+            <li class="contact"><a href="order.html">Order</a></li>
+        </ul>
+    </div>
+    <div id="lft">
+        <form>
+            <table align="left" width="550" style="overflow: scroll" border="0">
+                <tr>
+                    <td width='150'><label>Sympton or Disease:</label></td>
+                    <td><label id="sympTitle"></label></td>
+                </tr>
+                <tr>
+                    <td><label >Pain Level:</label></td>
+                    <td><label id="pain"></label></td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <table border="0">
+                        <tr><td>Research:</td></tr>
+                        <tr><td><p class='info' textWrap="true" id='symptonInformation'>Here is more information about your Syndrome</p></td></tr>
+                    </table>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td></tr>
+                    <table border="0">
+                        <tr><td>Other Recommendations:</td></tr>
+                        <tr><td><label>Patients also reported success with these strains:</label></td></tr>
+                        <tr><td colspan="4"><label id="otherRecommendation"  textWrap="true">i am here</label></td></tr>
+                    </table>
+            </table>
+        </form>
+    </div> 
+    <div id="ctr">
+                <table border="0">
+                        <tr>
+                            <td colspan="6"><label id="req">Our Recommendation:</label></td>
+                            <td rowspan="10"><img width="250" height="200" src="imgs/strains/strawberry.jpg"</td>
+                        </tr>
+                        <tr>
+                            <td><label>Strain:</label></td>
+                            <td><label id="reqStrain">Strawberry Cough</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Type:</label></td>
+                            <td><label id="reqType">Sativa</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>THC %:</label></td>
+                            <td><label id="reqThc">14.5</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Order:</label></td>
+                            <td><img width="20" height="20" src="imgs/strains/cart.png"</td>
+                        </tr>
+                    </table>
+    </div>
+<div class="footer">
+    <a class="footerTxt" href="mailto:info@webmd.ml">contact us</a>
+</div>    
+</div>
+<script>
+    var strains = [];
+    strains[1]="Whitefire, Sour Tangie, Critical Kush, Pineapple, Mendo Breath";
+    strains[2]="AK-47, Tahoe OG, Grapefruit, Ancient OG, Kryptonite";
+    strains[3]="Master Kush, Strawberry, Purple Dream, Harlequin, DeathStar OG";
+    strains[4]="Jack-The-Ripper, Black Beauty, Cherry Pie, Caramelo, Diablo OG";
+    
+
+    var urlStr = window.location.search
+    var getSympin = urlStr.split("&");
+    var symptomString = getSympin[1]
+    varTotString = symptomString.length;
+    varSympIndex = symptomString.indexOf("=");
+    selectedSympton = symptomString.substring((varSympIndex+1), varTotString-1);
+    var sympCategory = symptomString.substring(varTotString, (varTotString-1));
+    var pageSel = document.getElementById("sympTitle");
+    pageSel.innerText = selectedSympton;
+
+    var painLv = getSympin[0];
+    var painLvStr= painLv.length;
+    var painIndex = painLv.indexOf("=");
+    var painLevel = painLv.substring(painIndex+1, painLvStr)
+    var painSel = document.getElementById("pain");
+    painSel.innerText = painLevel;
+
+    var otherReqs = '';
+    otherReqs = strains[sympCategory];
+    var otherReqValue = document.getElementById("otherRecommendation");
+    otherReqValue.innerText = otherReqs;
+    var infoStr = getSympin[2].toString();
+    infoStr = infoStr.substring(5, infoStr.length);
+    infoStr = infoStr.replace("%20", " ");
+    document.getElementById('symptonInformation').textContent = unescape(infoStr);
+
+</script>
+
+</body>
+</html>

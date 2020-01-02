@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> WeedMD</title>
+<link rel="stylesheet" href="weedmdstyle.css">
+</head>
+<body>
+
+<div class="bg">
+    <div class="nav">
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="research"><a href="info.html">Research</a></li>
+            <li class="about"><a href="about.html">About</a></li>
+            <li class="news"><a href="news.html">Newsletter</a></li>
+            <li class="contact"><a href="order.html">Order</a></li>
+        </ul>
+    </div>
+    <div id = "lft">
+        <marquee scrollamount="1" behavior="scroll" direction="up" style="height:777px;">
+        <p>
+            Marijuana cultivation began in the United States around 1600 with the Jamestown settlers, who began growing the cannabis sativa or hemp plant for its unusually strong fiber that was used to make rope, sails, and clothing. that in 1619, Virginia passed a law requiring hemp to be grown on every farm in the colony. At the time, the crop was also considered a proper form of currency in Virginia, as well as Pennsylvania and Maryland. Until after the Civil War, marijuana was a source of major revenue for the United States. During the 19th century marijuana plantations flourished in Mississippi, Georgia, California, South Carolina, Nebraska, New York, and Kentucky. 
+            Between 1850 and 1937 marijuana was widely used throughout United States as a medicinal drug and could easily be purchased in pharmacies and general stores. Recreational use was limited in the US until 1910. "Tea pads," where a person could purchase marijuana for 25 cents or less, began appearing in cities across the United States. By 1930 it was reported that there were at least 500 of these "tea pads" in New York City alone. During the Great Depression as unemployment increased, numerous research studies linked marijuana use by lower class communities with crime and violence. In 1937, Congress passed the Marijuana Tax Act which criminalized the drug. This was the first in line of federal and state legislation to mediate the drug.
+        </p>
+        <p>
+            The use of cannabis as medicine has not been rigorously tested due to production and governmental restrictions, resulting in limited clinical research to define the safety and efficacy of using cannabis to treat diseases. Evidence suggests its use for reducing nausea during chemotherapy, improving appetite in HIV/AIDS, improving sleep, and improving tics in Tourette syndrome. When usual treatments are ineffective, cannabinoids have also been recommended for anorexia, arthritis, glaucoma, migraine, relief from the spasticity of multiple sclerosis, pain management and posttraumatic stress disorder.
+        </p><p>    
+            Today the acceptance of the use of Marijuana both medically and recreationally has created an environment in which the American people have to discover the truth and ‘their’ truth. While the fact that marijuana has definite medical uses, is no ‘urban myth,’ it is still not backed by FDA, CDC or widespread scientific approval. Americans have the access, without detailed information. For example, one person may take a multitude of pills, all applicable to different ailments. There are thousands of strains of marijuana and even more derivations of each, within their chemical balancing, all creating different effects in the human body. However, there does not exist a detailed register of which strains would be most effective for particular ailments and combinations thereof. 
+        </p><p>  
+                Our system, WeedMD, makes a recommendation of marijuana strain depending on your ailment(s). The system, built on current research will continue to learn as users try and rate their recommendations. Ultimately, the system will become so good at making recommendations, that it will begin to create its own modified strains of marijuana focused at covering a multitude of ailments within one prescription. This would educate and empower medical marijuana users to target their symptoms and manage them more effectively.  In addition, dispensary owners and suppliers will gain a competitive advantage by creating state of the art marijuana strains. 
+        </p>
+        </marquee>
+    </div>
+    <div id="ctr">
+        <table align="center" >
+            <form>
+                <tr><td colspan="5"><label>Please enter the following to begin your search:</label></td></tr>
+                <tr><td><label>Age:</label></td><td> <input type="text" id="age" maxlength="3" size="3" name="age"></td></tr>
+                <tr><td><label>Gender:</label></td>
+                    <td>
+                        <select name="gender">
+                            <option value='female'>Female</option>
+                            <option value='male'>Male</option>
+                            <option value='nonbinary'>Non-Binary / Third Gender</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td><label>Weight:</label></td><td> <input type="text" name="wt" id="wt" maxlength="3" size="3"></td></tr>
+                <tr>
+                    <td><label>Pain Level 1-10:</label></td>
+                    <td><input type="range" min="1" max="10" value="1" class="slider" id="myRange"></td>
+                    <td><p>Value: <span id="demo"></span></p></td>
+                </tr>
+                <tr><td colspan="8" align='center'>
+                    <select id="symp" name="symp">
+                            <option value='ADD-ADHD1' data-info='Comprehensive research on cannabis medicines for ADD/ADHD is lacking. However, early evidence has found an association between endocannabinoid dysregulation and the conditions'>ADD-HDHD</option>
+                            <option value='Alzheimers4' data-info='Research published online in the journal Aging and Mechanisms of Disease in June of 2016 found that an isolated cannabis compound, tetrahydrocannabinol (THC) reduced both inflammation and the presence of amyloid plaques in human cells cultivated in the laboratory'>Alzheimer’s Disease</option>
+                            <option value='Anorexia4' data-info='Formal research on cannabis for anorexia is lacking. However, early evidence suggests that the endocannabinoid system, one of the largest neurotransmitter networks in the body, is imbalanced in those with anorexia nervosa'>Anorexia</option>
+                            <option value='Arthritis3' data-info='Not only does research suggest that cannabis is a potent anti-inflammatory medication, but laboratory studies have found that THC, the primary psychoactive in the plant, is seven times more potent than aspirin'>Arthritis</option>
+                            <option value='Asthma2' data-info='Research conducted in the 1970s discovered that inhaled cannabis acted as a bronchodilator, reducing inflammation in restricted airways, though smoking is not considered healthy for the lungs'>Asthma</option>
+                            <option value='Autism1' data-info='Already, a handful of states allow medical cannabis authorizations for cases of severe autism'>Autism</option>
+                            <option value='Anxiety-Stress1' data-info='Along with pain and insomnia, stress management is one of the most common medical uses of cannabis'>Anxiety-Stress</option>
+                            <option value='Cachexia3' data-info='Already, synthetic cannabis-like drugs are available for the treatment of cachexia and wasting disorders; this wasting is caused by a lack of ability to process and take in nutrients, leading to a loss of muscle mass and difficulty with normal bodily functions'>Cachexia</option>
+                            <option value='Cancer3' data-info='In early 2017, a study in 21 patients with brain cancer found that a drug made from extracted cannabis compounds was associated with an increased life expectancy'>Cancer</option>
+                            <option value='Cerebral-Palsy2' data-info='A survey conducted in 2012 among patients with cerebral palsy found that medical cannabis was the preferred form of pain management for those that had tried the herb'>Cerebral Palsy</option>
+                            <option value='Bipolar-Disorder1' data-info='some preliminary evidence suggests that cannabis consuming patients with bipolar disorder show cognitive improvements over non-consumers'>Bipolar Disorder</option>
+                            <option value='Headache3' data-info='Cannabis tincture was used as a migraine and headache treatment by Western doctors in the 19th century'>Headache</option>
+                            <option value='Epilepsy2' data-info='Research on epilepsy is some the most advanced regarding the medical uses of cannabis; one pharmaceutical company has presented positive phase 3 data that cannabis compounds effectively reduce seizures in intractable epilepsy'>Epilepsy</option>
+                            <option value='Glaucoma1' data-info='The medical use of cannabis for glaucoma was first proposed in the 1970s when researchers discovered that the smoked herb successfully reduced intraocular pressure; In the time since several studies have shown that cannabis compounds reduce inflammation and are neuroprotective for the optic nerve'>Glaucoma</option>
+                            <option value='Brain-Trauma3' data-info='The anti-inflammatory properties of cannabis may be beneficial for several different forms of head trauma, including concussion, post-concussive syndrome, and Chronic Traumatic Encephalopathy (CTE)'>Brain Trauma</option>
+                            <option value='HIV-AIDS3' data-info='Multiple studies have now found a positive correlation between cannabis and improved counts of functioning helper T immune cells in HIV/ AIDS patients; the most recent study, published in 2017, found that HIV/AIDS patients with positive levels of circulating THC in their blood showed improved immune markers over their non-consuming counterparts'>HIV-AIDS</option>
+                            <option value='Hypertension1' data-info='"While active compounds like THC may increase heart rate in those with low tolerance, the herb has long been known to decrease blood pressure overall'>Hypertension</option>
+                            <option value='Inflammation3' data-info='In recent years, inflammation has been cited as a key culprit behind many modern diseases; from autoimmune conditions to depression to autism, systemic inflammation is a major contributing factor; as evidenced many times in this article, cannabis has strong anti-inflammatory properties'>Inflammation</option>
+                            <option value='Insomnia1' data-info='While more research is needed to determine exactly how and why cannabis impacts sleep, evidence from as early as 1973 has found that the herb helps human consumers fall asleep faster and potentially stay asleep longer'>Insomnia</option>
+                            <option value='Lack-of-Appetite2' data-info='Cannabis and cannabis medicines improve appetite, reduces pain, eases nausea and vomiting, and reduces inflammation; this enables patients to take in and process more nutrients from food, easing the symptoms of malnutrition and wasting'>Lack of Appetite</option>
+                            <option value='Migraine1' data-info='Now, new contemporary human research presented at the Third Congress of the European Center for Neurology has found that cannabis compounds may be just as effective as pharmaceutical medications in terms of migraine relief'>Migraine</option>
+                            <option value='Mood-Disorders1' data-info='Compounds such as CBD and cannabichromene (CBC) have been found to have mood-stabilizing and antidepressant properties'>Mood Disorders</option>
+                            <option value='Muscle-Spasms3' data-info='Several cannabis compounds are known muscle relaxers, which is perhaps why so many medical cannabis consumers pick up cannabis for relief from muscle spasms from conditions like multiple sclerosis, as well as for spasms from old injuries and other disorders'>Muscle Spasms</option>
+                            <option value='Nausea2' data-info='Cannabis and cannabis medicines improve appetite, reduces pain, eases nausea and vomiting, and reduces inflammation'>Nausea</option>
+                            <option value='Osteoporosis4' data-info='cannabis compounds like CBD may positively impact bone health in aging adults'>Osteoporosis</option>
+                            <option value='Pain2' data-info='At this time, the analgesic properties of cannabis are quite famous. Its effects are thought to be especially useful for chronic pain, which can be very difficult to treat'>Pain</option>
+                            <option value='Parkinsons4' data-info='a 1990 Czech survey which included medical-cannabis consuming Parkinsons patients found that half of those who consumed the herb once felt symptom improvement'>Parkinson’s Disease</option>
+                            <option value='PTSD1' data-info='Studies have already shown that the endocannabinoid system appears dysregulated in PTSD, suggesting that cannabis-based medicines may be helpful for the condition'>Post-traumatic stress disorder</option>
+                            <option value='Premenstrual-Syndrome3' data-info='Cannabis has been used as a women’s health aid for millennia. The anti-inflammatory, muscle relaxant, and mood-boosting properties make the herb a promising natural remedy for premenstrual syndrome and perhaps other menstrual disorders'>Premenstrual syndrome (PMS)</option>
+                            <option value='Sexual-Dysfunction1' data-info='A 2017 review put the herb’s aphrodisiac reputation to the test. The study reviewed various surveys of cannabis consumers conducted over different time periods'>Sexual dysfunction</option>
+                            <option value='Spinal-Cord-Injury3' data-info='In a small clinical trial conducted in 2014, patients with spinal cord disease inhaled vaporized cannabis containing THC; Overall, the researchers found that cannabis was associated with a statistically significant reduction in pain scores'>Spinal Cord Injury</option>
+                            <option value='Stress1' data-info='Along with pain and insomnia, stress management is one of the most common medical uses of cannabis'>Stress</option>
+                            <option value='Stroke1' data-info='While the impact of cannabis on stroke prevention is up for debate, animal research does suggest that cannabis compounds may improve recovery from stroke after it happens'>Stroke</option>
+                            <option value='Tourette-Syndrome1' data-info='Over the last few years, several studies have cited evidence that cannabis compounds like THC successfully reduce tics in Tourette patients'>Tourette Syndrome</option>
+                            <option value='Traumatic-Brain-Injury3' data-info='research has already found that THC administration right after a traumatic brain injury can halt the damage, potentially saving lives'>Traumatic Brain Injury (TBI)</option>
+                    </select>
+                </td><input type="hidden" name="ailment">
+                <tr></tr>
+                <tr>
+                    <td colspan="4" align='center'>
+                        <button type="button" onclick="show();">Find Your Strain!</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+<div class="footer">
+    <a class="footerTxt" href="mailto:info@webmd.ml">contact us</a>
+</div>
+</div>
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    var page='ail_a1.html';
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+
+
+    function show(){
+        function painMod(val){
+            if (val>9) {page="12.html"}
+                else if(val>7){page="11.html"}
+                    else if(val>5){page="10.html"}
+            else {page="9.html"}
+            }
+        function ageMod(val){
+            alert("age is:" + val);
+            if (age>75){page="4.html"}
+                else if (age>50){page="3.html"}
+                    else if (age>33) {page="2.html"}
+                        else if (age>18){page="1.html"}
+            }
+        function wtMod(val){
+            if (val>315) {page="8.html"}
+                else if (val>285){page="7.html"}
+                    else if (val>229) {page="6.html"}
+                        else if (val<101) {page="5.html"}
+            
+            }
+
+    
+    var painValue = document.getElementById('myRange');
+    var pain = parseInt(painValue.value);
+    var sympValue = document.getElementById('symp');
+    var symptom = sympValue.value;
+    var symptomSel = sympValue.options[sympValue.selectedIndex];
+    var sympData = symptomSel.getAttribute('data-info');
+    var ageValue = document.getElementById('age');
+    var age = parseInt(ageValue.value);
+    var wtValue = document.getElementById('wt');
+    var wt = parseInt(wtValue.value);
+    
+    if (pain>4){painMod(pain)}
+        else if(wt<101 || wt>229){wtMod(wt)}
+            else(ageMod(age))
+    window.location.href = page + "?pain=" + pain + "&symp=" + symptom + "&info=" + sympData;
+    }
+
+</script>
+</body>
+</html>

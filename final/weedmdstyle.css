@@ -1,0 +1,133 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size:100%; 
+  line-height:1.5;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("imgs/back.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#ctr {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: 2px solid rgb(99, 156, 20);
+    width: 600px;
+    height: 250px;
+    background-color:rgb(85, 79, 79);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    color: #ffffff;
+    padding: 15px;
+    box-shadow: 5px 10px #363636;
+}
+
+#lft {
+    position: relative;
+    left: 13px;
+    top: 13px;
+    right: 0;
+    border-radius: 25px;
+    border: 2px solid rgb(99, 156, 20);
+    width: 580px;
+    height: 777px;
+    background-color:rgb(85, 79, 79);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    color: #ffffff;
+    padding: 15px;
+    box-shadow: 5px 10px #363636;
+    overflow: hidden;
+}
+ 
+ .nav ul {
+   list-style: none;
+   background-color: rgb(85, 85, 85);
+   text-align: center;
+   padding: 0;
+   margin: 0;
+ }
+ .nav li {
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.2em;
+   line-height: 40px;
+   height: 40px;
+   border-bottom: 1px solid #888;
+ }
+  
+ .nav a {
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   transition: .3s background-color;
+ }
+  
+ .nav a:hover {
+   background-color:rgb(99, 156, 20);
+ }
+  
+ .nav a.active {
+   background-color: #fff;
+   color: #444;
+   cursor: default;
+ }
+  
+ @media screen and (min-width: 600px) {
+   .nav li {
+     width: 120px;
+     border-bottom: none;
+     height: 50px;
+     line-height: 50px;
+     font-size: 1.4em;
+   }
+  
+   /* Option 1 - Display Inline */
+   .nav li {
+     display: inline-block;
+     margin-right: -4px;
+   }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 23px;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  text-align: center;
+}
+
+.footerTxt {
+    color: #fff;
+    text-align: center;
+    vertical-align: 0%;
+    }
+
+}
+
+.info p {
+    word-break: break-all;
+  }
