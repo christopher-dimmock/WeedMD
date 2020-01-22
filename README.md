@@ -1,4 +1,4 @@
-# **WeedMD** ![Logo](christopher-dimmock/WeedMD/blob/master/Chris/final/img/Resources/Logowmd.png)
+# **WeedMD** ![Logo](Chris/final/img/Resources/Logowmd.png)
 
 							by
 							
