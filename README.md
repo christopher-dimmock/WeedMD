@@ -8,18 +8,12 @@
 
 There is a correlation between gentrification levels and the number of coffee shops in Los Angeles neighborhoods.
 
-# HYPOTHESIS TO EVALUATE:
-
-+ **Hypothesis: the number of coffee shops around the city of los angeles is a pulse indicator of gentrification in the City**
-+ **Gentrification is failing in Los Angeles**
-
-
 
 # Technology Overview
 
 | Technology   		| Description    							|
 | :---         		|     :---:      							|
-|  Github      		| HTML, CSS, AWS, Mongo DB							|
+|  Github      		| HTML, CSS, JavaScript, Bootstrap					|
 |  API's       		| Yelp, Los Angeles Geo Hub, 							| 
 |  Jvascript Libraries   	| Javascript, D3, Leaflet, w3.js  		| 
 |  Supporting functions	| http requests, flask	|
@@ -34,14 +28,6 @@ There is a correlation between gentrification levels and the number of coffee sh
 +	Used API data for pertinent research questions. 
 +	Depicted data and a short description of our findings and any relevant plots.
 		
-# Presentation Requirements 	
-		
-+	Questions we found interesting and what motivated us to answer them
-+	Where and how we found the data you used to answer these questions
-+	The data exploration and cleanup process
-+	The analysis process 
-+	Our conclusions, which should include a numerical summary and visualizations of that summary
-+	The implications of our findings: what do your findings mean?
 
 
 
