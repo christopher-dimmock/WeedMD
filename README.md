@@ -2,7 +2,7 @@
 
 							by
 							
-	                   Ed Gomez, Christopher Dimmock, Priyanka Grover, Jose Gallegos
+	                   Jerry Walker, Christopher Dimmock, Jay Lee, Jose Gallegos
 
 # PROJECT DESCRIPTION:
 
