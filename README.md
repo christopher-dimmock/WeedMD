@@ -20,13 +20,18 @@ There is a correlation between gentrification levels and the number of coffee sh
 |  Source Control / Project Management    | GitHub	|
 
 
-# Development Requirements		
-		
-+	Use Javascript to clean and format our dataset(s). 
-+	Created dascboard for describing the data exploration and cleanup process.
-        presentation. 
-+	Used API data for pertinent research questions. 
-+	Depicted data and a short description of our findings and any relevant plots.
+# Challenges and Successes		
+Challenges Successes
+There are not enough comprehensive medical
+marijuana databases
+ We were able to use web-scraping to build our own database
+Existing databases did not have clear correlations
+between diseases and medical cannabis
+ Machine Learning allowed us to form correlations
+The original website was coded using a WordPress
+frame which ended up not being usable
+ Theme Forrest had a basic webpage that finally used for the initial launch
+
 		
 
 
