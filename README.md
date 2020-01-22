@@ -21,7 +21,8 @@ There is a correlation between gentrification levels and the number of coffee sh
 
 
 # Challenges and Successes		
-| Challenges | 		| Successes| 
+| Challenges 	| Successes	| 
+| :---         		|     :---:      						|
 | There are not enough comprehensive medical marijuana databases | We were able to use web-scraping to build our own database | 
 | Existing databases did not have clear correlations between diseases and medical cannabis | 
 Machine Learning allowed us to form correlations | 
