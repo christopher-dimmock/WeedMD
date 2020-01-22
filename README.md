@@ -1,4 +1,4 @@
-# **WeedMD** ![Logo](Chris/final/img/Resources/Logowmd.png =250x250)
+![Logo](Chris/final/img/Resources/Logowmd.png)
 
 							by
 							
