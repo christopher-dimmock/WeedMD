@@ -1,4 +1,4 @@
-# **WeedMD** ![Logo](C:\Users\redka\OneDrive\Desktop\Portfolio\Medical-Marijuana-Guide\WeedMD\Chris\final\img\Resources\Logowmd3)
+# **WeedMD** ![Logo](Chris\final\img\Resources\Logowmd3)
 
 							by
 							
