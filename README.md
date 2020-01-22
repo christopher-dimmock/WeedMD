@@ -1,4 +1,4 @@
-# **WeedMD** ![Logo|512x397, 20%](Chris/final/img/Resources/Logowmd3.png)
+# **WeedMD** ![Logo|512x397, 20%](Chris/final/img/Resources/Logowmd.png)
 
 							by
 							
@@ -7,7 +7,6 @@
 # PROJECT DESCRIPTION:
 
 There is a correlation between gentrification levels and the number of coffee shops in Los Angeles neighborhoods.
-
 
 # Technology Overview
 
