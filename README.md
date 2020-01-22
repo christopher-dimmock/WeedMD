@@ -1,4 +1,4 @@
-# **WeedMD** ![Logo|512x397, 20%](Chris/final/img/Resources/Logowmd.png)
+# **WeedMD** ![Logo](Chris/final/img/Resources/Logowmd.png)
 
 							by
 							
