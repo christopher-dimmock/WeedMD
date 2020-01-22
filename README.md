@@ -16,9 +16,7 @@ There is a correlation between gentrification levels and the number of coffee sh
 |  Website: [http://weedmd.ml/](http://weedmd.ml/) | HTML, CSS, JavaScript, Bootstrap		|
 |  Backend data processing  | Python – scripts used to clean datasets of strains and their uses	| 
 |  Machine Learning Model | Python – using custom scoring and similarity metrics to recommend strain| 
-|  Cloud	| Amazon Simple Storage Service (S3) was used as the interface between
-		  the database and website, Amazon Web Services (AWS) platform was
-		  used to deploy the website.|
+|  Cloud	| Amazon Simple Storage Service (S3) was used as the interface between the database and website, Amazon Web Services (AWS) platform was used to deploy the website.|
 |  Source Control / Project Management    | GitHub	|
 
 
