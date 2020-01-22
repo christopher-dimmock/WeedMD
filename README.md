@@ -11,7 +11,7 @@ There is a correlation between gentrification levels and the number of coffee sh
 
 # Technology Overview
 
-| Technology   		| Description    							|
+| Stack / Machine Learning Pipeline   | Technology used   					|
 | :---         		|     :---:      							|
 |  Github      		| HTML, CSS, JavaScript, Bootstrap					|
 |  API's       		| Yelp, Los Angeles Geo Hub, 							| 
